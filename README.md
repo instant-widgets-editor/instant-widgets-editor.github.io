@@ -2,7 +2,7 @@
 
 Is available at [https://instant-widgets-editor.github.io/](https://instant-widgets-editor.github.io/)
 
-## Login Screen
+## Login
 
 To login successfully you have to use your Github login and Personal Access Token (PAT)
 
@@ -24,3 +24,42 @@ It is easily done in few steps:
 ![sreenshot](https://i.snipboard.io/W1kLKV.jpg)
 1. Use your PAT each time you need to login to Instant Widgets Editor
 ![sreenshot](https://i.snipboard.io/1l0Y5h.jpg)
+
+## Choose repository (country)
+
+Once logged in there is a list of repositories to work with will be shown:
+![screenshot](https://i.snipboard.io/QfugtV.jpg)
+
+**Note:** Instant Widgets Editor displays repositories that are *available* to you. In case of empty page or some repos being missing. Please request access to the repositories for your Github account.
+
+## Edit Widgets
+
+After choosing a repository you will be redirected to Widgets editing screen.
+
+**Hint:** You can easily navigate in Instant Widgets Editor by changing *page* value in the URL to *login*, *repos* or *widgets*:
+![screenshot](https://i.snipboard.io/GtBHeF.jpg)
+
+Each environment (JIT, UAT and PROD) have their Widgets that can be added, removed, transfered and duplicated easily.
+
+### Reordering Widgets
+
+To change Widgets' order at an environment:
+1. Press **Change Order** button next to the environment name
+1. Drag the Widget to new position
+1. Press **Change Order** button once again
+
+### Editing Widgets
+
+To edit a Widget:
+1. Hover on Widget
+1. Press **Edit** button that appears at the top right corner of the Widget
+1. The editing popup will appear
+
+### Copying Widgets
+
+To copy a Widget:
+1. Hover on Widget
+1. Press **Copy** button that appears at the top left corner of the Widget
+1. The copying popup will appear
+
+## Publishing Changes
