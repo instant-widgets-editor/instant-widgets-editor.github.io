@@ -16,11 +16,11 @@ It is easily done in few steps:
 ![sreenshot](https://i.snipboard.io/qAWXUy.jpg)
 1. Fill the Note input (something like *Personal Access Token for Instant Widgets Editor* would do)
 ![sreenshot](https://i.snipboard.io/h72dj9.jpg)
-1. Make sure to choose following checkboxes:
+1. Make sure to mark following checkboxes:
 ![sreenshot](https://i.snipboard.io/fPlXFd.jpg)
 1. Hit **Generate Token** button
 ![sreenshot](https://i.snipboard.io/3Hyaxo.jpg)
-1. Make sure to copy your new personal access token now. You won’t be able to see it again!
+1. Make sure to copy and *save* your new personal access token now. You won’t be able to see it again!
 ![sreenshot](https://i.snipboard.io/W1kLKV.jpg)
 1. Use your PAT each time you need to login to Instant Widgets Editor
 ![sreenshot](https://i.snipboard.io/1l0Y5h.jpg)
