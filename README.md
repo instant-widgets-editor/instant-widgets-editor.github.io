@@ -30,7 +30,7 @@ It is easily done in few steps:
 Once logged in there is a list of repositories to work with will be shown:
 ![screenshot](https://i.snipboard.io/QfugtV.jpg)
 
-**Note:** Instant Widgets Editor displays repositories that are *available* to you. In case of empty page or some repos being missing. Please request access to the repositories for your Github account.
+**Note:** Instant Widgets Editor displays repositories that are *available* to you. In case of empty page or some repos being missing, please request access to the repositories for your Github account.
 
 ## Edit Widgets
 
@@ -63,3 +63,7 @@ To copy a Widget:
 1. The copying popup will appear
 
 ## Publishing Changes
+
+After any changes applied the corresponding environment will display two additional buttons: **Publish** and **Revert All Changes**.
+Pressing **Revert All Changes** button discards all changes made for this environment.
+Pressing **Publish** button will initiate Widgets' publishing process for given environment. Notifications about the procedure could be observed in the bottom left corner of the screen. After successfull reports in the notifications it is save to reload the page.
