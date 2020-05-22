@@ -55,6 +55,55 @@ To edit a Widget:
 1. Press **Edit** button that appears at the top right corner of the Widget
 1. The editing popup will appear
 
+#### Editing Widgets: Title & Description
+
+Each country's supported language is presented as input field:
+![screenshot](https://i.snipboard.io/msZKQG.jpg)
+
+The Mobile app displays the text in accordance with the user's prefferd language.
+
+#### Editing Widgets: Images
+
+The image block of the editing popup is used to an image to a widget or remove the existing image. In case of removal the default color will be applied.
+
+![screenshot](https://i.snipboard.io/BEJD6p.jpg)
+
+**Note:** Make sure that uploaded images meet following requirements:
+Format - PNG
+Minimum Width - 750px
+Minimum Height - 784px
+Maximum Width - 1500px
+Maximum Height - 1568px
+
+#### Editing Widgets: CTA Button Link & Text
+
+In this block it is required to fill call-to-action texts for different languages used in a given country and paste a link the button is supposed to lead to.
+
+![screenshot](https://i.snipboard.io/Yr1pji.jpg)
+
+#### Editing Widgets: Audience
+
+This dropdown is used to select an audience that will observe the Widget after publishing.
+
+![screenshot](https://i.snipboard.io/pnQ8jA.jpg)
+
+#### Editing Widgets: Availability
+
+In this block we set the limits in terms of dates the Widget will be available to users.
+![screenshot](https://i.snipboard.io/cNbVF0.jpg)
+
+The format of dates is *month (2 digits) / day (2 digits) / year (4 digits)*
+Left field (From) is used to set start date.
+Right field (Till) is used to set start date.
+
+#### Editing Widgets: Removing
+
+Button **Remove Widget** is used to delete given Widget.
+![screenshot](https://i.snipboard.io/UnrdI8.jpg)
+To apply removing permanently make sure to publish changes for current environment (see: [https://github.com/instant-widgets-editor/instant-widgets-editor.github.io/blob/master/README.md#publishing-changes](https://github.com/instant-widgets-editor/instant-widgets-editor.github.io/blob/master/README.md#publishing-changes)).
+
+**Note:** Each field in editing popup is required except of image, which is optional.
+
 ### Copying Widgets
 
 To copy a Widget:
