@@ -1,6 +1,6 @@
 # Instant Widgets Editor
 
-Is available at [https://instant-widgets-editor.github.io/](https://instant-widgets-editor.github.io/)
+Is available at [https://iw-manager.github.io/](https://iw-manager.github.io/)
 
 ## Login
 
@@ -36,29 +36,24 @@ Once logged in there is a list of repositories to work with will be shown:
 
 After choosing a repository you will be redirected to Widgets editing screen.
 
-**Hint:** You can easily navigate in Instant Widgets Editor by changing *page* value in the URL to *login*, *repos* or *widgets*:
-![screenshot](https://i.snipboard.io/GtBHeF.jpg)
-
 Each environment (JIT, UAT and PROD) have their Widgets that can be added, removed, transfered and duplicated easily.
 
 ### Reordering Widgets
 
-To change Widgets' order at an environment:
-1. Press **Change Order** button next to the environment name
-1. Drag the Widget to new position
-1. Press **Change Order** button once again
+To change Widgets' order at an environment drag the Widget to new position.
 
 ### Editing Widgets
 
 To edit a Widget:
 1. Hover on Widget
-1. Press **Edit** button that appears at the top right corner of the Widget
+1. Press **Edit** button that appears under the Widget
 1. The editing popup will appear
 
 #### Editing Widgets: Title & Description
 
 Each country's supported language is presented as input field:
-![screenshot](https://i.snipboard.io/msZKQG.jpg)
+![screenshot](https://i.snipboard.io/s9zRbw.jpg)
+![screenshot](https://i.snipboard.io/KXOLmf.jpg)
 
 The Mobile app displays the text in accordance with the user's prefferd language.
 
@@ -66,7 +61,7 @@ The Mobile app displays the text in accordance with the user's prefferd language
 
 The image block of the editing popup is used to an image to a widget or remove the existing image. In case of removal the default color will be applied.
 
-![screenshot](https://i.snipboard.io/BEJD6p.jpg)
+![screenshot](https://i.snipboard.io/Ogy1xl.jpg)
 
 **Note:** Make sure that uploaded images meet following requirements:
 Format - PNG
@@ -79,27 +74,27 @@ Maximum Height - 1568px
 
 In this block it is required to fill call-to-action texts for different languages used in a given country and paste a link the button is supposed to lead to.
 
-![screenshot](https://i.snipboard.io/Yr1pji.jpg)
+![screenshot](https://i.snipboard.io/BkFdGa.jpg)
 
 #### Editing Widgets: Audience
 
 This dropdown is used to select an audience that will observe the Widget after publishing.
 
-![screenshot](https://i.snipboard.io/pnQ8jA.jpg)
+![screenshot](https://i.snipboard.io/fu5Bal.jpg)
 
 #### Editing Widgets: Availability
 
 In this block we set the limits in terms of dates the Widget will be available to users.
-![screenshot](https://i.snipboard.io/cNbVF0.jpg)
+![screenshot](https://i.snipboard.io/INKgl7.jpg)
 
-The format of dates is *month (2 digits) / day (2 digits) / year (4 digits)*
-Left field (From) is used to set start date.
-Right field (Till) is used to set start date.
+The format of dates is *day (2 digits) / month (2 digits) / year (4 digits)*
+**From** is used to set start date.
+**Till** is used to set end date.
 
 #### Editing Widgets: Removing
 
 Button **Remove Widget** is used to delete given Widget.
-![screenshot](https://i.snipboard.io/UnrdI8.jpg)
+![screenshot](https://i.snipboard.io/F9J6r2.jpg)
 To apply removing permanently make sure to publish changes for current environment (see: [https://github.com/instant-widgets-editor/instant-widgets-editor.github.io/blob/master/README.md#publishing-changes](https://github.com/instant-widgets-editor/instant-widgets-editor.github.io/blob/master/README.md#publishing-changes)).
 
 **Note:** Each field in editing popup is required except of image, which is optional.
@@ -108,11 +103,11 @@ To apply removing permanently make sure to publish changes for current environme
 
 To copy a Widget:
 1. Hover on Widget
-1. Press **Copy** button that appears at the top left corner of the Widget
+1. Press **Copy** button that appears under the Widget
 1. The copying popup will appear
 
 ## Publishing Changes
 
 After any changes applied the corresponding environment will display two additional buttons: **Publish** and **Revert All Changes**.
 Pressing **Revert All Changes** button discards all changes made for this environment.
-Pressing **Publish** button will initiate Widgets' publishing process for given environment. Notifications about the procedure could be observed in the bottom left corner of the screen. After successfull reports in the notifications it is save to reload the page.
+Pressing **Publish** button will initiate Widgets' publishing process for given environment. Notifications about the procedure could be observed. After successfull reports in the notifications it is save to reload the page.
