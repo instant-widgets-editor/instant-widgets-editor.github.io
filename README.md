@@ -2,6 +2,15 @@
 
 Is available at [https://iw-manager.github.io/](https://iw-manager.github.io/)
 
+## Regulatory/Legal requirements
+ 
+1. Content of Instant Widgets will be within local product, regulatory & legal responsibility
+1. For every widget local product team will get local privacy & legal approval
+1. From central perspective, promoting regulatory features (e.g. WebSafe) or Providing information (e.g. Corona updates) should generally be OK
+1. Promotional messaging should be pre-approved by local privacy/regulatory officer
+1. Any mandatory regulatory/privacy messaging should not be replaced by other messages
+1. Currently there is no opt-in/out possibility provided for this feature.
+
 ## Login
 
 To login successfully you have to use your Github login and Personal Access Token (PAT)
@@ -23,12 +32,12 @@ It is easily done in few steps:
 1. Make sure to copy and *save* your new personal access token now. You won’t be able to see it again!
 ![sreenshot](https://i.snipboard.io/W1kLKV.jpg)
 1. Use your PAT each time you need to login to Instant Widgets Editor
-![sreenshot](https://i.snipboard.io/1l0Y5h.jpg)
+![sreenshot](https://i.snipboard.io/lCGqkU.jpg)
 
 ## Choose repository (country)
 
 Once logged in there is a list of repositories to work with will be shown:
-![screenshot](https://i.snipboard.io/QfugtV.jpg)
+![screenshot](https://i.snipboard.io/aKN1HS.jpg)
 
 **Note:** Instant Widgets Editor displays repositories that are *available* to you. In case of empty page or some repos being missing, please request access to the repositories for your Github account.
 
